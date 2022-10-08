@@ -21,7 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pretty": "yarn prettier --write ./src"
+    "pretty": "yarn prettier --write ./src",
+    "prepare": "husky install"
   },
   "browserslist": {
     "production": [
@@ -37,6 +38,7 @@
   },
   "devDependencies": {
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "husky": "^8.0.0"
   }
 }
