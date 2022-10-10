@@ -35,5 +35,6 @@
         "project": ["tsconfig.json"]
       }
     }
-  ]
+  ],
+  "ignorePatterns": ["**/*.css"]
 }
